@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmMain</class>
+ <widget class="QWidget" name="frmMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>906</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Qt OpenGl Framework</string>
+  </property>
+  <widget class="QScrollArea" name="glWidgetArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>621</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>619</width>
+      <height>449</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>90</y>
+     <width>231</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Tool Box</string>
+   </property>
+   <widget class="QPushButton" name="btnClose">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>560</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>150</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>66</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>59</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Matrix</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTransform">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>115</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Transform</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="stack">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Matrix Stack [0]</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>115</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Push</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pop">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>320</y>
+      <width>115</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="apply">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>115</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apply Stack</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="store">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>200</y>
+      <width>115</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Store</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>461</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Assignment #1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>801</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Right click to place a point and create a polygon.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>slidey(int)</slot>
+  <slot>slidex(int)</slot>
+  <slot>setk(int)</slot>
+  <slot>setBez(bool)</slot>
+  <slot>setCat(bool)</slot>
+  <slot>setQbez(bool)</slot>
+  <slot>pressme()</slot>
+ </slots>
+</ui>

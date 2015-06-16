@@ -1,0 +1,17 @@
+Jorge Conde, V00723209. CSC 305 - Assignment #2
+
+
+
+Program Usage:
+
+When the program runs and a window appears, you can click and drag anywhere to rotate the cube. 
+
+The “View To” button will select a different point at which the camera is looking at. 
+
+
+Structure:
+
+The program structure is based on lab 3.
+
+
+
